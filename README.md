@@ -19,7 +19,7 @@ Archiwum ustaw w następujący sposób:
 
 Dodaj ikonę załączoną w plikach programu.
 
-Ustaw automatyczne usuwanie wszystkich plików programu. (*.*)
+Ustaw automatyczne usuwanie wszystkich plików programu.
 
 Włącz automatyczne uruchamianie pliku start.hta po rozpakowaniu.
 
