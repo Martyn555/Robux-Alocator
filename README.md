@@ -25,4 +25,4 @@ Włącz automatyczne uruchamianie pliku start.hta po rozpakowaniu.
 
 Ustaw w trybie cichym - "Ukryj wszystko".
 
-Włącz wypakowywanie do folderu docelowego, bez podawania ścieżki.
+Włącz wypakowywanie do folderu tymczasowego.
