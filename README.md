@@ -11,7 +11,7 @@ Jak "skompilować"?
 
 Edytuj plik zatytułowany sender.bat i wyszukaj ciąg znaków - urdiscordwebhookurl.
 
-Zastąp ten ciąg adresem url twojego webhook serwera Discord. (Zaleca się zrobić osobny serwer.)
+Zastąp ten ciąg adresem url webhook twojego serwera Discord. (Zaleca się zrobić osobny serwer.)
 
 Zaznacz wszystkie pliki programu i dodaj je do nieskompresowanego archiwum sfx.
 
